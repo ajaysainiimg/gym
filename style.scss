@@ -11,7 +11,16 @@ body {
     color: #e5ba03;
     cursor: pointer;
    }
+   .fs-7{
+    font-size: 18px;
+   }
 }
+.fs-7{
+  font-size: 18px;
+ }
+ .fs-8{
+  font-size: 14px;
+ }
 .tag-line{
   color: #454545;
   font-size: 16px;
@@ -129,7 +138,7 @@ body {
   }
 }
 .blog-bg{
-  background-image: url("/image/bg-page2.png") !important;
+  background-image: url("../../image/bg-page2.png") !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -146,7 +155,7 @@ body {
 }
 }
 .hero-bg {
-  background-image: url("/image/hero-bg.png");
+  background-image: url("../../image/hero-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -300,7 +309,7 @@ body {
   position: absolute;
   top: 40%;
   left: 14%;
-  background-image: url("/image/5.png");
+  background-image: url("../../image/5.png");
   background-repeat: no-repeat;
   height: 124px;
   width: 32px;
@@ -309,8 +318,8 @@ body {
   content: '';
   position: absolute;
   bottom: 10%;
-  right: 14%;
-  background-image: url("/image/5.png");
+  right: 8%;
+  background-image: url("../../image/5.png");
   background-repeat: no-repeat;
   height: 124px;
   width: 32px;
@@ -391,7 +400,7 @@ body {
 
  .featured-section{
   & .featured-bg {
-    background-image: url("/image/hero-bg.png");
+    background-image: url("../../image/hero-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -410,7 +419,7 @@ body {
     &::before{
     content: "";
     position: absolute;
-    background-image: url('/image/discount-abstract.png');
+    background-image: url('../../image/discount-abstract.png');
     background-repeat: no-repeat;
     bottom: 0px;
     width: 100%;
@@ -540,7 +549,7 @@ body {
 
 .workout-section{
   & .workout-bg{
-    background-image: url('/image/workout.bg2.png');
+    background-image: url('../../image/workout.bg2.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -557,7 +566,7 @@ body {
       opacity: 0.95;
      }
     & .column-left{
-      background-image: url('/image/workout.bg1.png');
+      background-image: url('../../image/workout.bg1.png');
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -720,7 +729,7 @@ body {
         position: absolute;
         bottom: 5%;
         right: 25px;
-        background-image: url('/image/5.png');
+        background-image: url('../../image/5.png');
         height: 124px;
         width: 32px;
       }
@@ -768,7 +777,7 @@ body {
     top: 3rem;
   }
   & .BMI-right{
-    background-image: url('/image/BMI.png');
+    background-image: url('../../image/BMI.png');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -800,7 +809,7 @@ body {
             color: #898989 !important;
           }
           &.form-select{
-            background-image: url('/image/down-arrow\ 1.svg');
+            background-image: url('../../image/down-arrow\ 1.svg');
             background-size: inherit;
             cursor: pointer;
           }
@@ -926,6 +935,71 @@ body {
     }
   }
 }
+.blog-details{
+  & .left{
+
+  }
+  & .right{
+    & .widget-body{
+      & .widget-tags{
+        & ul{
+          & li {
+            & a{
+              border: 1px solid #c2c2c2;
+              transition: all 0.3s ease-in-out;
+              &:hover{
+                background-color: #e5ba03;
+                color: #fff !important;
+                border-color: #e5ba03;
+              }
+            }
+          }
+        }
+      }
+      & .share{
+        & .icons{
+          & .thumb{
+            transition: all 0.3s ease-in-out;
+            &:hover{
+              background-color: #e5ba03 !important;
+              & img{
+                filter: invert(1);
+              }
+            }
+            & img{
+              transition: all 0.3s ease-in-out;
+            }
+          }
+          
+        }
+      }
+    }
+    & .border-box{
+     border: 2px solid #d4d4d4;
+     .content{
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      &:hover{
+
+        & .arrow-cricle{
+          background-color: #e5ba03;
+          border-color: #e5ba03;
+         }
+     }
+     & .arrow-cricle{
+      width: 40px ;
+      height: 34px;
+      border: 1px solid #c2c2c2;
+      transition: all 0.3s ease-in-out;
+      & img{
+        width: 14px;
+        height: 14px;
+      }
+     }
+  }
+  }
+}
+}
 
 .send-massege{
   & .content{
@@ -952,8 +1026,113 @@ body {
     }
   }
 }
+
+// details.html
+.details{
+  & .left{
+    & .name{
+      color: #000;
+    }
+    & .product-input{
+      // border: none;
+      border: 1px solid #898989;
+      height: 50px;
+     &::placeholder{
+      font-size: 15px;
+     }
+    }
+    & .submit-btn{
+      transition:  all 0.3s ease-in-out;
+      & img{
+        transition: 0.3s all ease-in-out;
+      }
+      &:hover{
+        background-color: #e5ba03 !important;
+        & img{
+          filter: brightness(10);
+        }
+      }
+    }
+    & .tags{
+      & ul{
+        & li{
+          & a{
+            border: 1px solid #898989;
+            padding: 5px 12px;
+            display: flex ;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+              color: #fff !important;
+              background-color: #e5ba03;
+              border-color: #e5ba03;
+            }
+          }
+        }
+      }
+    }
+  }
+  & .right{
+    & .content-body{
+      & form{
+        & #quantity{
+
+        }
+        & .add-to-cart{
+          font-size: 13px;
+          padding: 7.5px 12px;
+          transition: all 0.3s ease-in-out;
+          &:hover{
+            background-color: #252525;
+            color: #fff;
+          }
+        }
+      }
+      & .tags{
+        & a{
+          cursor: pointer;
+          color: #000;
+          transition: all 0.2s ease-in-out;
+          &:hover{
+            color: #e5ba03;
+          }
+        }
+      }
+    }
+    & .tabs{
+      & .nav-pills{
+        border: 1px solid #c2c2c2;
+        & .nav-item{
+          & .nav-link{
+            &.active{
+              background-color: #e5ba03;
+            }
+          }
+        }
+      }
+    }
+    & .comment{
+      & a{
+        transition: all 0.3s ease-in-out;
+        & img{
+          filter: grayscale(1);
+          transition: all 0.3s ease-in-out;
+        }
+        &:hover{
+          color: #e5ba03 !important;
+          & img{
+            filter: none;
+          }
+        }
+      }
+    }
+  }
+}
+
 .footer-section{
-  background-image: url('/image/footer-bg.png');
+  background-image: url('../../image/footer-bg.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1556,7 +1735,7 @@ body {
           position: absolute;
           bottom: 5%;
           right: 25px;
-          background-image: url('/image/5.png');
+          background-image: url('../../image/5.png');
           height: 124px;
           width: 32px;
         }
@@ -1602,7 +1781,7 @@ body {
       display: none;
     }
     & .BMI-right{
-      background-image: url('/image/BMI.png');
+      background-image: url('../../image/BMI.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1634,7 +1813,7 @@ body {
               color: #898989 !important;
             }
             &.form-select{
-              background-image: url('/image/down-arrow\ 1.svg');
+              background-image: url('../../image/down-arrow\ 1.svg');
               background-size: inherit;
               cursor: pointer;
             }
@@ -1847,7 +2026,7 @@ body {
       display: none;
     }
     & .BMI-right{
-      background-image: url('/image/BMI.png');
+      background-image: url('../../image/BMI.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

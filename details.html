@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Zymzoo</title>
+        <script src="./libs/slider/js/jquery.min.js"></script>
+        <link rel="stylesheet" href="./libs/bootstrap/css/bootstrapcss.css" />
+        <link rel="stylesheet" href="./libs/slider/css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="./assets/css/style.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+      </head>
+<body>
+    <!-- navbar -->
+<nav
+class="navbar navbar-expand-lg fixed-top container-fluid"
+id="navbar"
+>
+<div class="container">
+  <a class="navbar-brand" href="#"
+    ><img src="./image/logo-light.png" alt="" class="h-100 w-100"
+  /></a>
+  <button
+    class="navbar-toggler shadow-none"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div
+    class="collapse navbar-collapse justify-content-end"
+    id="navbarNavAltMarkup"
+  >
+    <div class="navbar-nav text-white gap-xl-4 gap-3">
+      <a class="nav-link nav-text active" aria-current="page" href="index.html"
+        >Home</a
+      >
+      <a class="nav-link nav-text" href="about.html">Aoout</a>
+      <a class="nav-link nav-text" href="pages.html">Pages</a>
+      <a class="nav-link nav-text" href="classes.html">Classes</a>
+      <a class="nav-link nav-text" href="shop.html">Shop</a>
+      <a class="nav-link nav-text" href="trainers.html">Trainers</a>
+      <a class="nav-link nav-text" href="#">Blog</a>
+      <a class="nav-link nav-text" href="contact.html">Contact</a>
+    </div>
+    <div class="ps-3">
+      <a href="#" class="top-icon"
+        ><img src="./image/shop-bag.svg" alt=""
+      /></a>
+    </div>
+  </div>
+</div>
+</nav>
+<!-- hero section -->
+<div class="hero-bg">
+  <div class="container-fluid h-100 pt-md-5 py-md-0 py-5">
+    <div class="container h-100 mt-3">
+      <div class="row h-100 align-items-center pt-md-5 py-5 py-md-0 mt-5">
+        <div class="col-lg-6 h-100">
+          <div class="font-style hero-heading display-1 text-center text-md-start my-3 fw-light">
+            <span class="fw-bold">PRODUCTS</span> DETAILS
+          </div>
+        </div>
+        <div class="col-lg-6 right-image">
+          <div class="">
+            <img src="./image/right-image.png" alt="" class="img-fluid h-100 w-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- HAND DUMBLE -->
+<div class="container-fluid details py-md-5 py-4">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-3 left">
+                <div class=" mb-5">
+                    <div class="bg-theme py-4">
+                        <div class="fw-bold font-style name ps-3">SEARCH</div>
+                    </div>
+                        <div class="bg-light pt-4 pb-5 d-flex justify-content-center">
+                           <input type="text" placeholder="keywoards here" class=" bg-transparent  ps-2 product-input w-75">
+                           <button type="submit" class="btn border-0 bg-black rounded-0 submit-btn">
+                               <img src="./image/search.png" alt="">
+                           </button>
+                       </div>
+                </div>
+
+                <div class=" mb-5">
+                    <div class="bg-theme py-4">
+                        <div class="fw-bold font-style name ps-3">CATEGORIES</div>
+                    </div>
+                        <div class="bg-light ">
+                           <ul class="list-unstyled">
+                            <li class="px-4 py-3 border-bottom border-2"><a href="#" class="d-flex justify-content-between text-decoration-none text-dark ">Fitness Ball <span class="text-secondary">25</span> </a></li>
+                            <li class="px-4 py-3 border-bottom border-2"><a href="#" class="d-flex justify-content-between text-decoration-none text-dark ">Gym Bag <span class="text-secondary">52</span> </a></li>
+                            <li class="px-4 py-3 border-bottom border-2"><a href="#" class="d-flex justify-content-between text-decoration-none text-dark ">Water Bottle <span class="text-secondary">12</span> </a></li>
+                            <li class="px-4 py-3 border-bottom border-2"><a href="#" class="d-flex justify-content-between text-decoration-none text-dark ">Workout Tank Top <span class="text-secondary">18</span> </a></li>
+                            <li class="px-4 py-3 border-bottom border-2"><a href="#" class="d-flex justify-content-between text-decoration-none text-dark ">Skipping Rope<span class="text-secondary">45</span> </a></li>
+                            <li class="px-4 py-3 "><a href="#" class="d-flex justify-content-between text-decoration-none text-dark ">Ab Roller<span class="text-secondary">72</span> </a></li>
+                           </ul>
+                       </div>
+                </div>
+                
+                <div class=" mb-5">
+                    <div class="bg-theme py-4">
+                        <div class="fw-bold font-style name ps-3">PRICE FILTER</div>
+                    </div>
+                        <div class="bg-light py-4 ">
+                           <div class="text-center">$410_$2,310</div>
+                       </div>
+                </div>
+
+                <div class=" mb-5 tags">
+                    <div class="bg-theme py-4">
+                        <div class="fw-bold font-style name ps-3">TAGS</div>
+                    </div>
+                        <div class="bg-light py-3">
+                           <ul class="list-unstyled">
+                            <li class="px-4 py-2 d-flex">
+                                <a href="#" class="text-decoration-none text-dark  rounded-4 me-1">Fitness</a>
+                                <a href="#" class="text-decoration-none text-dark rounded-4 ms-1">Workout</a>
+                            </li>
+                            <li class="px-4 py-2 d-flex">
+                                <a href="#" class="text-decoration-none text-dark  rounded-4 me-1">Aerobics</a>
+                                <a href="#" class="text-decoration-none text-dark rounded-4 ms-1">Crossfit</a>
+                            </li>
+                            <li class="px-4 py-2 d-flex">
+                                <a href="#" class="text-decoration-none text-dark  rounded-4  me-1">Yoga</a>
+                                <a href="#" class="text-decoration-none text-dark rounded-4  ms-1">Exwrcise</a>
+                            </li>
+                           </ul>
+                       </div>
+                </div>
+                <div class=" mb-5">
+                   <div class="">
+                    <img src="./image/s1.png" alt="" class="w-100 h-100">
+                   </div>
+                </div>
+            </div>
+            <div class="col-lg-9 right">
+                <div class="row">
+                    <div class="col-lg-6 pb-5">
+                        <div class="thumb">
+                            <img src="./image/1 (1).png" alt="" class="h-100 w-100">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pb-5">
+                        <div class="content-body">
+                            <div class="theme-heading font-style fw-bold">
+                                HAND DUMBLE
+                            </div>
+                            <div class="fw-semibold fs-4">$2.5 per kg</div>
+                            <div class="text-muted py-3">Hand Dumble is very professional and expert trainer. In his job. He never compromise about his work to maintain our sed cuuntur magni dolores eos qui rat ione volupta</div>
+                            <div class="fw-semibold fs-7 mb-3">Stock: <span class="theme-color fw-normal fs-6 ms-2">Available</span></div>
+                            <div class="fw-semibold fs-7 mb-3">SKU: <span class="ms-2 fw-normal fs-6">35487kbckl</span></div>
+                            <form action="/action_page.php" class="mb-3 d-flex align-items-center ">
+                              <label for="quantity" class="fw-semibold fs-7">Quantity:</label>
+                              <input type="number" class="fw-bold font-style text-white bg-black ps-2 ms-2 py-1" id="quantity" name="quantity" min="1" max="20" value="01">
+                              <input type="button" class="btn d-flex justify-content-center align-content-center bg-theme add-to-cart ms-3 rounded-0 fw-semibold" value="ADD TO CART">
+                            </form>
+                            
+                            <div class="fw-semibold fs-7 mb-3">Category: <span class="ms-2 fw-medium fs-6">Fitness</span></div>
+                            <div class="fw-semibold fs-7 mb-3 tags">Tag:<span class="ms-2 fs-6"> <a href="" class="text-decoration-none fw-medium">Fitness,</a>
+                              <a href="#" class="text-decoration-none fw-medium">Gym</a>, <a href="#" class="text-decoration-none fw-medium">Instrument</a>, <a href="#" class="text-decoration-none fw-medium">Bodybuilding</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 tabs">
+                <ul class="nav nav-pills mb-3 justify-content-between " id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active px-5 rounded-0 font-style text-dark fs-7 fw-bold" id="pills-Description-tab" data-bs-toggle="pill" data-bs-target="#pills-Description" type="button" role="tab" aria-controls="pills-Description" aria-selected="true">Description</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link px-5 rounded-0 font-style text-dark fs-7 fw-bold" id="pills-Aditional-tab" data-bs-toggle="pill" data-bs-target="#pills-Aditional" type="button" role="tab" aria-controls="pills-Aditional" aria-selected="false">Aditional Info</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link px-5 rounded-0 font-style text-dark fs-7 fw-bold" id="pills-Shopping-tab" data-bs-toggle="pill" data-bs-target="#pills-Shopping" type="button" role="tab" aria-controls="pills-Shopping" aria-selected="false">Shopping & Returns</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link px-5 rounded-0 font-style text-dark fs-7 fw-bold" id="pills-Reviews-tab" data-bs-toggle="pill" data-bs-target="#pills-Reviews" type="button" role="tab" aria-controls="pills-Reviews" aria-selected="false">Reviews (3)</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content pt-5" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-Description" role="tabpanel" aria-labelledby="pills-Description-tab">
+                        <div class="name theme-color pb-2">Provide the best Gym product for your for our client with their more for the same we have expert team, modern equipments and quality materials provide</div>
+                        <div class="text-muted py-3">Gym is very important to maintain our health luptas sit fugit, sed quia cuuntur magni dolores eos qui rat ione some of volupta pleasure rationally encounter consequences that are extremely pleasure rationally encounter that are their the extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because maintain it is pain, but because occasionally circumstances occur in which some great pleasure more than enough to popular make your body fit with this class, but you need to continure your class regularly and timely</div>
+                        <div class="text-muted">Gym is very important to maintain our health luptas sit fugit, sed quia cuuntur magni dolores eos qui rat ione desier volupta pleasure rationally encounter consequences that are extremely pleasure rationally encounter that are but putextremely painful. Nor again is there anyone who loves or pursues or desires to obtain</div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-Aditional" role="tabpanel" aria-labelledby="pills-Aditional-tab">
+                        <div class="name fw-bold font-style">Aditional Info</div>
+                        <div class="text-muted py-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate</div>
+                        <ul class="">
+                            <li class="py-1">1-2 business days (Typically by end of day)</li>
+                            <li class="py-1">30 days money back guaranty</li>
+                            <li class="py-1">24/7 live support</li>
+                            <li class="py-1">odio dignissim qui blandit praesent</li>
+                            <li class="py-1">luptatum zzril delenit augue duis dolore</li>
+                            <li class="py-1">te feugait nulla facilisi.</li>
+                        </ul>
+                        <div class="text-muted">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum</div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-Shopping" role="tabpanel" aria-labelledby="pills-Shopping-tab">
+                        <div class="name fw-bold font-style">Shopping & Returns policy for our store</div>
+                        <div class="py-3 small">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate</div>
+                        <ul class="">
+                            <li class="py-1 small">1-2 business days (Typically by end of day)</li>
+                            <li class="py-1 small">30 days money back guaranty</li>
+                            <li class="py-1 small">24/7 live support</li>
+                            <li class="py-1 small">odio dignissim qui blandit praesent</li>
+                            <li class="py-1 small">luptatum zzril delenit augue duis dolore</li>
+                            <li class="py-1 small">te feugait nulla facilisi.</li>
+                        </ul>
+                        <div class="py-3 small">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum</div>
+                        <div class="small pb-3">claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per</div>
+                        <div class="small">seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-Reviews" role="tabpanel" aria-labelledby="pills-Reviews-tab">
+                       <div class="border-box p-4 border-1">
+                         <div class="">
+                            <div class="name fw-bold font-style pb-4">Customer Reviews</div>
+                            <div class="d-flex justify-content-between">
+                                <div class="thumb">
+                                <img src="./image/search.png" alt="">
+                                <img src="./image/search.png" alt="">
+                                <img src="./image/search.png" alt="">
+                                <img src="./image/search.png" alt="">
+                                <span class="small">Based on 1 review</span>
+                            </div>
+                                <div class="small">Right Reviews</div>
+                            </div>
+                            <hr>
+                         </div>
+                       </div>
+                    </div>
+                  </div>
+                  <!-- related-products -->
+                  <div class="product-section">
+                     <div class="theme-heading fw-bold font-style">RELATED PRODUCT</div>
+                     <div class="row py-5">
+                        <div class="col-lg-4 col-sm-6 mb-3 mb-lg-0">
+                          <div class="product-card  ">
+                            <div class="position-relative">
+                            <div class="thumb">
+                              <img src="./image/product2.png" alt="" class="h-100 w-100">
+                            </div>
+                            <div class="ribons theme-color">NEW</div>
+                            <div class="product-action">
+                              <a href="" class="btn btn-theme">Add to Cart</a>
+                            </div>
+                          </div>
+                            <div class="content text-center py-3">
+                              <div class="name fw-bold font-style mb-2">Fitness Slam Ball</div>
+                              <div class="whight">$48.00</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6  mb-4 mb-lg-0">
+                          <div class="product-card  ">
+                            <div class="position-relative">
+                            <div class="thumb">
+                              <img src="./image/product3.png" alt="" class="h-100 w-100">
+                            </div>
+                            <div class="ribons theme-color">NEW</div>
+                            <div class="product-action">
+                              <a href="" class="btn btn-theme">Add to Cart</a>
+                            </div>
+                          </div>
+                            <div class="content text-center py-3">
+                              <div class="name fw-bold font-style mb-2">Gym Personal Bag</div>
+                              <div class="whight">$25.00</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-4">
+                          <div class="product-card  ">
+                            <div class="position-relative">
+                            <div class="thumb">
+                              <img src="./image/product4.png" alt="" class="h-100 w-100">
+                            </div>
+                            <div class="ribons theme-color">HOT</div>
+                            <div class="product-action">
+                              <a href="" class="btn btn-theme">Add to Cart</a>
+                            </div>
+                          </div>
+                            <div class="content text-center py-3">
+                              <div class="name fw-bold font-style mb-2">Water Bottle</div>
+                              <div class="whight">$10.50</div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                          <div class=" justify-content-center d-flex mb-3 p-0 pt-4 shadow-none">
+                            <a
+                              href="#"
+                              class="text-decoration-none text-black fw-bold btn-border bg-transparent rounded-5 mt-5 shadow-none"
+                              >VIEW All</a
+                            >
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer -->
+<div class="container-fluid footer-section py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 mb-3 mb-lg-0">
+        <div class="footer-logo mb-3">
+          <img src="./image/logo-light.png" alt="" />
+        </div>
+        <div class=" mb-3 peragraph">
+          Zymzoo winner dolor sit consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna
+        </div>
+        <div class="theme-color font-style fs-5 mb-2">Opening time</div>
+        <div class="peragraph">
+          Monday - Friday: 7 am to 10 pm <br />
+          Saturday - Sunday: 9 am to 10 pm
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 usefull-link mb-3 mb-lg-0 mt-md-0 mt-2">
+        <div class="name text-white fw-bold font-style mb-3">
+          USEFULL LINK
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <ul class="footer-nav list-unstyled">
+              <li class="nav-item mb-2">
+                <a href="" class="text-decoration-none peragraph"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="" class="text-decoration-none peragraph"
+                  >Membership</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="" class="text-decoration-none peragraph"
+                  >Our Classes</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="" class="text-decoration-none peragraph"
+                  >Instructors</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="" class="text-decoration-none peragraph">Shop</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="" class="text-decoration-none peragraph"
+                  >Blog Post</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul class="footer-nav list-unstyled">
+              <li class="nav-item mb-2">
+                <a href="" class="text-decoration-none peragraph"
+                  >Schedules</a
+                >
+              </li>
+              <li class="nav-ite mb-2">
+                <a href="" class="text-decoration-none peragraph"
+                  >Payment</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="" class="text-decoration-none peragraph">Faqs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="" class="text-decoration-none peragraph"
+                  >Contect</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-md-0 mb-3">
+        <div class="name text-white fw-bold font-style mb-3">
+          CONTACT INFO
+        </div>
+        <div class="d-flex loction mb-3">
+          <div class="icon pe-3">
+            <img src="./image/Location Pointer.svg" alt="" />
+          </div>
+          <div class="content">
+            <div class="theme-color fw-semibold mb-1">Address</div>
+            <div class=" peragraph">
+              252B, Central Street Main road Belix Tower, New York, USA
+            </div>
+          </div>
+        </div>
+        <div class="d-flex loction mb-3">
+          <div class="icon pe-3">
+            <img src="./image/contact.svg" alt="" />
+          </div>
+          <div class="content">
+            <div class="theme-color fw-semibold mb-1">Phone</div>
+            <div class="mb-1 number">
+              <a href="" class="text-decoration-none peragraph"
+                >4789 (1562) 30</a
+              >
+            </div>
+            <div class="number">
+              <a href="" class=" text-decoration-none peragraph"
+                >9875 (1515) 86</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="d-flex loction">
+          <div class="icon pe-3">
+            <img src="./image/Globe.svg" alt="" />
+          </div>
+          <div class="content">
+            <div class="theme-color fw-semibold mb-1">Web</div>
+            <div class="mb-1 mail">
+              <a href="" class=" text-decoration-none peragraph"
+                >afzalkhan1e@gmail.com</a
+              >
+            </div>
+            <div class="mail">
+              <a href="" class=" text-decoration-none peragraph"
+                >afzalkhan.img@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mt-md-0 mt-2">
+        <div class="name text-white fw-bold font-style mb-3">
+          NEWSLATTER
+        </div>
+        <div class="content">
+          <div class="mb-3 peragraph">
+            Subscribe our Newsletter and gates latest updates of offers,
+            productsa and promotions from every week we provide
+          </div>
+          <div class="input-group">
+            <input
+              type="email"
+              class="form-control shadow-none bg-transparent py-2"
+              aria-label="Dollar amount (with dot and two decimal places)"
+              placeholder="Email Hare"
+            />
+            <span class="input-group-text"
+              ><img src="./image/Sent 1.svg" alt=""
+            /></span>
+          </div>
+          <div class="social-icons d-flex gap-3 mt-4">
+            <a href="" class="icon"
+              ><img src="./image/facebook.svg" alt=""
+            /></a>
+            <a href="" class="icon"
+              ><img src="./image/instagram.svg" alt=""
+            /></a>
+            <a href="" class="icon"
+              ><img src="./image/twitter.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="./libs/slider/js/owl.carousel.min.js"></script>
+    <script src="./libs/bootstrap/js/bootstrapjs.js"></script>
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      $(document).ready(function () {
+        (function ($) {
+          $(".my-carousel").owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: false,
+            center: true,
+            autoplay: false,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            responsive: {
+              0: {
+                items: 1,
+              },
+              450: {
+                items: 1,
+              },
+              700: {
+                items: 1,
+              },
+              1000: {
+                items: 1,
+              },
+            },
+          });
+          $(".owl-prev").html(
+            '<img src="./image/left Arrow.svg" alt="" class="pe-2">'
+          );
+          $(".owl-next").html(
+            '<img src="./image/Right Arrow.svg" alt="" class="pe-2 ">'
+          );
+        })(jQuery);
+      });
+    </script>
+</body>
+</html>
