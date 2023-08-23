@@ -12,49 +12,70 @@
 </head>
 <body>
     <!-- navbar -->
-<nav
-class="navbar navbar-expand-lg fixed-top container-fluid"
-id="navbar"
->
-<div class="container">
-  <a class="navbar-brand" href="#"
-    ><img src="./image/logo-light.png" alt="" class="h-100 w-100"
-  /></a>
-  <button
-    class="navbar-toggler  shadow-none"
-    type="button"
-    data-bs-toggle="collapse"
-    data-bs-target="#navbarNavAltMarkup"
-    aria-controls="navbarNavAltMarkup"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div
-    class="collapse navbar-collapse justify-content-end"
-    id="navbarNavAltMarkup"
-  >
-    <div class="navbar-nav text-white gap-xl-4 gap-3">
-      <a class="nav-link nav-text active" aria-current="page" href="index.html"
-        >Home</a
-      >
-      <a class="nav-link nav-text" href="about.html">Aoout</a>
-      <a class="nav-link nav-text" href="pages.html">Pages</a>
-      <a class="nav-link nav-text" href="classes.html">Classes</a>
-      <a class="nav-link nav-text" href="shop.html">Shop</a>
-      <a class="nav-link nav-text" href="trainers.html">Trainers</a>
-      <a class="nav-link nav-text" href="#">Blog</a>
-      <a class="nav-link nav-text" href="contact.html">Contact</a>
+    <nav class="navbar navbar-expand-lg fixed-top navHeader" id="navbar" aria-label="Offcanvas navbar large">
+      <div class="container navbar-section">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none navbar-brand">
+            <img src="./image/logo-light.png" alt="" class="w-100 h-100">
+          </a>
+          <div class="d-flex align-items-center">
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="offcanvas offcanvas-top border-0 w-100"tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+            <div class="offcanvas-header">
+              <a href="#"><img src="./image/logo-light.png" alt="" class="logo-size"></a>
+              <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body overflow-visible align-items-center">
+          <ul class="nav col-12 col-lg-auto m-lg-auto mb-2 justify-content-center mb-md-0 navbar-nav gap-xl-4 gap-3">
+              <!-- first nav -->
+              <li class="nav-item">
+                <a class="nav-link nav-text active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link nav-text" href="about.html">Aoout</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="pages.html">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="classes.html">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="trainers.html">Trainers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="blog-details.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="contact.html">Contact</a>
+              </li>
+          </ul>
+  
+          <!-- <div class="nav my-3 my-xl-0 px-4 flex-nowrap align-items-center">
+            <div class="nav-item  mx-auto">
+              <form class="position-relative">
+                <button class="bg-transparent p-2  shadow-none position-absolute top-50 end-0 translate-middle-y border-0 text-primary-hover text-reset" type="submit">
+                  <i class="fas fa-search fs-6 "></i>
+                </button>
+              </form>
+            </div>
+          </div> -->
+          
+        </div>
+      </div>
+      <div class="text-end ps-3">
+        <a href="#" class="d-block link-dark text-decoration-none top-icon" id="User1" data-bs-toggle="" aria-expanded="false">
+          <img src="./image/shop-bag.svg" alt="mdo" width="32" height="32" class="">
+        </a>
+      </div>
     </div>
-    <div class="ps-3">
-      <a href="#" class="top-icon"
-        ><img src="./image/shop-bag.svg" alt=""
-      /></a>
-    </div>
-  </div>
-</div>
-</nav>
+      </div>
+    </nav>
 <!-- hero section -->
 <div class="hero-bg blog-bg py-sm-5 position-relative">
   <div class="container-fluid pt-md-5 py-5">
@@ -80,13 +101,13 @@ id="navbar"
       <div class="row ">
         <div class="col-lg-4 col-sm-6 mb-lg-4 mb-3">
           <div class="blog-post-item h-100">
-            <div class="thumb overflow-hidden">
+            <a class="thumb overflow-hidden" href="blog-details.html">
               <img
                 src="./image/BLOG-POST1.png"
                 alt=""
-                class="img-fluid h-100 w-100"
+                class="img-fluid w-100"
               />
-            </div>
+            </a>
             <div class="content">
               <div class="d-flex mb-2 align-items-center">
                 <div class="me-2 category fw-semibold">
@@ -108,13 +129,13 @@ id="navbar"
         </div>
         <div class="col-lg-4 col-sm-6 mb-lg-4 mb-3">
           <div class="blog-post-item h-100">
-            <div class="thumb overflow-hidden">
+            <a class="thumb overflow-hidden" href="blog-details.html">
               <img
                 src="./image/BLOG-POST2.png"
                 alt=""
-                class="img-fluid h-100 w-100"
+                class="img-fluid w-100"
               />
-            </div>
+            </a>
             <div class="content">
               <div class="d-flex mb-2 align-items-center">
                 <div class="me-2 category fw-semibold">
@@ -136,13 +157,13 @@ id="navbar"
         </div>
         <div class="col-lg-4 col-sm-6 mb-lg-4 mb-3">
           <div class="blog-post-item h-100">
-            <div class="thumb overflow-hidden">
+            <a class="thumb overflow-hidden" href="blog-details.html">
               <img
                 src="./image/BLOG-POST3.png"
                 alt=""
-                class="img-fluid h-100 w-100"
+                class="img-fluid w-100"
               />
-            </div>
+            </a>
             <div class="content">
               <div class="d-flex mb-2 align-items-center">
                 <div class="me-2 category fw-semibold">
@@ -164,13 +185,13 @@ id="navbar"
         </div>
         <div class="col-lg-4 col-sm-6 mb-lg-4 mb-3">
           <div class="blog-post-item h-100">
-            <div class="thumb overflow-hidden">
+            <a class="thumb overflow-hidden" href="blog-details.html">
               <img
                 src="./image/BLOG-POST4.png"
                 alt=""
-                class="img-fluid h-100 w-100"
+                class="img-fluid w-100"
               />
-            </div>
+            </a>
             <div class="content">
               <div class="d-flex mb-2 align-items-center">
                 <div class="me-2 category fw-semibold">
@@ -192,13 +213,13 @@ id="navbar"
         </div>
         <div class="col-lg-4 col-sm-6 mb-lg-4 mb-3">
           <div class="blog-post-item h-100">
-            <div class="thumb overflow-hidden">
+            <a class="thumb overflow-hidden" href="blog-details.html">
               <img
                 src="./image/BLOG-POST5.png"
                 alt=""
-                class="img-fluid h-100 w-100"
+                class="img-fluid w-100"
               />
-            </div>
+            </a>
             <div class="content">
               <div class="d-flex mb-2 align-items-center">
                 <div class="me-2 category fw-semibold">
@@ -220,13 +241,13 @@ id="navbar"
         </div>
         <div class="col-lg-4 col-sm-6 mb-lg-4 mb-3">
           <div class="blog-post-item h-100">
-            <div class="thumb overflow-hidden">
+            <a class="thumb overflow-hidden" href="blog-details.html">
               <img
                 src="./image/BLOG-POST6.png"
                 alt=""
-                class="img-fluid h-100 w-100"
+                class="img-fluid w-100"
               />
-            </div>
+            </a>
             <div class="content">
               <div class="d-flex mb-2 align-items-center">
                 <div class="me-2 category fw-semibold">
@@ -248,13 +269,13 @@ id="navbar"
         </div>
         <div class="col-lg-4 col-sm-6 mb-3 mb-lg-0">
           <div class="blog-post-item h-100">
-            <div class="thumb overflow-hidden">
+            <a class="thumb overflow-hidden" href="blog-details.html">
               <img
                 src="./image/BLOG-POST7.png"
                 alt=""
-                class="img-fluid h-100 w-100"
+                class="img-fluid w-100"
               />
-            </div>
+            </a>
             <div class="content">
               <div class="d-flex mb-2 align-items-center">
                 <div class="me-2 category fw-semibold">
@@ -276,13 +297,13 @@ id="navbar"
         </div>
         <div class="col-lg-4 col-sm-6 mb-3 mb-lg-0">
           <div class="blog-post-item h-100">
-            <div class="thumb overflow-hidden">
+            <a class="thumb overflow-hidden" href="blog-details.html">
               <img
                 src="./image/BLOG-POST8.png"
                 alt=""
-                class="img-fluid h-100 w-100"
+                class="img-fluid w-100"
               />
-            </div>
+            </a>
             <div class="content">
               <div class="d-flex mb-2 align-items-center">
                 <div class="me-2 category fw-semibold">
@@ -304,13 +325,13 @@ id="navbar"
         </div>
         <div class="col-lg-4 col-sm-6">
           <div class="blog-post-item h-100">
-            <div class="thumb overflow-hidden">
+            <a class="thumb overflow-hidden" href="blog-details.html">
               <img
                 src="./image/BLOG-POST9.png"
                 alt=""
-                class="img-fluid h-100 w-100"
+                class="img-fluid w-100"
               />
-            </div>
+            </a>
             <div class="content">
               <div class="d-flex mb-2 align-items-center">
                 <div class="me-2 category fw-semibold">

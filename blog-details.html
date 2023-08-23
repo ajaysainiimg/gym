@@ -12,49 +12,70 @@
       </head>
 <body>
     <!-- navbar -->
-    <nav
-class="navbar navbar-expand-lg fixed-top container-fluid"
-id="navbar"
->
-<div class="container">
-  <a class="navbar-brand" href="#"
-    ><img src="./image/logo-light.png" alt="" class="h-100 w-100"
-  /></a>
-  <button
-    class="navbar-toggler  shadow-none"
-    type="button"
-    data-bs-toggle="collapse"
-    data-bs-target="#navbarNavAltMarkup"
-    aria-controls="navbarNavAltMarkup"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div
-    class="collapse navbar-collapse justify-content-end"
-    id="navbarNavAltMarkup"
-  >
-    <div class="navbar-nav text-white gap-xl-4 gap-3">
-      <a class="nav-link nav-text active" aria-current="page" href="index.html"
-        >Home</a
-      >
-      <a class="nav-link nav-text" href="about.html">Aoout</a>
-      <a class="nav-link nav-text" href="pages.html">Pages</a>
-      <a class="nav-link nav-text" href="classes.html">Classes</a>
-      <a class="nav-link nav-text" href="shop.html">Shop</a>
-      <a class="nav-link nav-text" href="trainers.html">Trainers</a>
-      <a class="nav-link nav-text" href="#">Blog</a>
-      <a class="nav-link nav-text" href="contact.html">Contact</a>
+    <nav class="navbar navbar-expand-lg fixed-top navHeader" id="navbar" aria-label="Offcanvas navbar large">
+      <div class="container navbar-section">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none navbar-brand">
+            <img src="./image/logo-light.png" alt="" class="w-100 h-100">
+          </a>
+          <div class="d-flex align-items-center">
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="offcanvas offcanvas-top border-0 w-100"tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+            <div class="offcanvas-header">
+              <a href="#"><img src="./image/logo-light.png" alt="" class="logo-size"></a>
+              <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body overflow-visible align-items-center">
+          <ul class="nav col-12 col-lg-auto m-lg-auto mb-2 justify-content-center mb-md-0 navbar-nav gap-xl-4 gap-3">
+              <!-- first nav -->
+              <li class="nav-item">
+                <a class="nav-link nav-text active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link nav-text" href="about.html">Aoout</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="pages.html">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="classes.html">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="trainers.html">Trainers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="blog-details.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="contact.html">Contact</a>
+              </li>
+          </ul>
+  
+          <!-- <div class="nav my-3 my-xl-0 px-4 flex-nowrap align-items-center">
+            <div class="nav-item  mx-auto">
+              <form class="position-relative">
+                <button class="bg-transparent p-2  shadow-none position-absolute top-50 end-0 translate-middle-y border-0 text-primary-hover text-reset" type="submit">
+                  <i class="fas fa-search fs-6 "></i>
+                </button>
+              </form>
+            </div>
+          </div> -->
+          
+        </div>
+      </div>
+      <div class="text-end ps-3">
+        <a href="#" class="d-block link-dark text-decoration-none top-icon" id="User1" data-bs-toggle="" aria-expanded="false">
+          <img src="./image/shop-bag.svg" alt="mdo" width="32" height="32" class="">
+        </a>
+      </div>
     </div>
-    <div class="ps-3">
-      <a href="#" class="top-icon"
-        ><img src="./image/shop-bag.svg" alt=""
-      /></a>
-    </div>
-  </div>
-</div>
-</nav>
+      </div>
+    </nav>
 <!-- hero section -->
 <div class="hero-bg blog-bg position-relative py-sm-5">
   <div class="container-fluid h-100 pt-md-5  py-5">
@@ -223,7 +244,8 @@ id="navbar"
               </div>
               <div class="">Gym is very important to maintain our health luptas sit fugit, sed quia cuuntur magni dolores eos qui rat ione volupta pleasure rationally encounter consequences that are extremely pleasure rationally encounter that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which some great pleasure more than enough to make your body fit with this class, but you need to continure your class regularly and timely</div>
               <div class="py-3">Gym is very important to maintain our health luptas sit fugit, sed quia cuuntur magni dolores eos qui rat ione volupta pleasure rationally encounter consequences that are extremely pleasure rationally encounter that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain</div>
-              <div class="d-flex widget-body justify-content-between align-items-center py-3">
+              <div class="row widget-body justify-content-between align-items-center py-3">
+                <div class="col-sm-6 mb-sm-0 mb-4">
                     <div class="widget-tags d-flex align-items-center">
                       <div class="fw-bold font-style">Tags:</div>
                       <ul class="d-flex list-unstyled ms-2 mb-0">
@@ -232,7 +254,9 @@ id="navbar"
                         <li><a href="classes.html" class="text-decoration-none px-2 text-dark rounded-4 py-1 mx-1">Gym</a></li>
                       </ul>
                     </div>
-                    <div class="share d-flex align-items-center">
+                  </div>
+                  <div class="col-sm-6 ">
+                    <div class="share d-flex align-items-center justify-content-sm-end justify-content-center">
                       <div class="fw-bold font-style me-2">Share:</div>
                       <div class="icons d-flex align-items-center">
                         <div class="thumb p-2 rounded-3 bg-light" >
@@ -246,12 +270,12 @@ id="navbar"
                         </div>
                         
                         
-                        
+                         </div>
                       </div>
                   </div>   
               </div>
               <div class="row px-3  py-4 border-box my-3 author-details">
-                <div class="col-lg-6">
+                <div class="col-sm-6 mb-sm-0 mb-3">
                   <div class="d-flex align-items-center content">
                     <div class="arrow-cricle p-2 rounded-5 d-flex justify-content-center align-items-center">
                       <img src="./image/left.svg" alt="" class="">
@@ -263,7 +287,7 @@ id="navbar"
                   </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-sm-6">
                   <div class="d-flex align-items-center content">
                     <div class=" fw-bold font-style fs-7 me-3 text-end ">
                       Cardio workout is vary important

@@ -13,49 +13,70 @@
       </head>
 <body>
     <!-- navbar -->
-    <nav
-class="navbar navbar-expand-lg fixed-top container-fluid"
-id="navbar"
->
-<div class="container">
-  <a class="navbar-brand" href="#"
-    ><img src="./image/logo-light.png" alt="" class="h-100 w-100"
-  /></a>
-  <button
-    class="navbar-toggler  shadow-none"
-    type="button"
-    data-bs-toggle="collapse"
-    data-bs-target="#navbarNavAltMarkup"
-    aria-controls="navbarNavAltMarkup"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div
-    class="collapse navbar-collapse justify-content-end"
-    id="navbarNavAltMarkup"
-  >
-    <div class="navbar-nav text-white gap-xl-4 gap-3">
-      <a class="nav-link nav-text active" aria-current="page" href="index.html"
-        >Home</a
-      >
-      <a class="nav-link nav-text" href="about.html">Aoout</a>
-      <a class="nav-link nav-text" href="pages.html">Pages</a>
-      <a class="nav-link nav-text" href="classes.html">Classes</a>
-      <a class="nav-link nav-text" href="shop.html">Shop</a>
-      <a class="nav-link nav-text" href="trainers.html">Trainers</a>
-      <a class="nav-link nav-text" href="#">Blog</a>
-      <a class="nav-link nav-text" href="contact.html">Contact</a>
+    <nav class="navbar navbar-expand-lg fixed-top navHeader" id="navbar" aria-label="Offcanvas navbar large">
+      <div class="container navbar-section">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none navbar-brand">
+            <img src="./image/logo-light.png" alt="" class="w-100 h-100">
+          </a>
+          <div class="d-flex align-items-center">
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="offcanvas offcanvas-top border-0 w-100"tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+            <div class="offcanvas-header">
+              <a href="#"><img src="./image/logo-light.png" alt="" class="logo-size"></a>
+              <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body overflow-visible align-items-center">
+          <ul class="nav col-12 col-lg-auto m-lg-auto mb-2 justify-content-center mb-md-0 navbar-nav gap-xl-4 gap-3">
+              <!-- first nav -->
+              <li class="nav-item">
+                <a class="nav-link nav-text active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link nav-text" href="about.html">Aoout</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="pages.html">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="classes.html">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="trainers.html">Trainers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="blog-details.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="contact.html">Contact</a>
+              </li>
+          </ul>
+  
+          <!-- <div class="nav my-3 my-xl-0 px-4 flex-nowrap align-items-center">
+            <div class="nav-item  mx-auto">
+              <form class="position-relative">
+                <button class="bg-transparent p-2  shadow-none position-absolute top-50 end-0 translate-middle-y border-0 text-primary-hover text-reset" type="submit">
+                  <i class="fas fa-search fs-6 "></i>
+                </button>
+              </form>
+            </div>
+          </div> -->
+          
+        </div>
+      </div>
+      <div class="text-end ps-3">
+        <a href="#" class="d-block link-dark text-decoration-none top-icon" id="User1" data-bs-toggle="" aria-expanded="false">
+          <img src="./image/shop-bag.svg" alt="mdo" width="32" height="32" class="">
+        </a>
+      </div>
     </div>
-    <div class="ps-3">
-      <a href="#" class="top-icon"
-        ><img src="./image/shop-bag.svg" alt=""
-      /></a>
-    </div>
-  </div>
-</div>
-</nav>
+      </div>
+    </nav>
    <!-- hero section -->
    <div class="hero-bg blog-bg position-relative py-sm-5">
     <div class="container-fluid pt-md-5  py-5">
@@ -67,7 +88,7 @@ id="navbar"
             </div>
             <div class="text-light py-3 text-center text-md-start m-screen-p">
                 We have very professional and exprt Instructor and they can very important to maintain
-                <br> our health luptas sit fugit, sed quia cuuntur magni dolores some products
+                <br class="d-none d-lg-block"> our health luptas sit fugit, sed quia cuuntur magni dolores some products
             </div>
           </div>
         </div>
@@ -123,7 +144,7 @@ id="navbar"
   <div class="container-fluid py-5 send-massege">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 mb-4 mb-md-0">
              <div class="content mb-4">
                 <div class="fw-bold font-style mb-3 heading">Send Message</div>
                 <div class="">If you need any information, feel free to send me message I will try to answer your and give you proper tips about your message</div>
@@ -133,7 +154,7 @@ id="navbar"
                 <div class="col-lg-12 fill-massege">
                   <div class="row row-gutter-12">
                     <div class="col-md-6">
-                      <div class="form-group">
+                      <div class="form-group mb-4 mb-md-0">
                         <input class="form-control shadow-none rounded-0 text-muted py-2" type="text" name="con_name" placeholder="Name">
                       </div>
                     </div>
@@ -156,8 +177,8 @@ id="navbar"
                 </div>
               </div>
             </div>
-            <div class="col-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.761454487115!2d75.73500567470113!3d26.91106476016276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db4ec307539f5%3A0x9d37e773648dad58!2sIMG%20Global%20Infotech%20Private%20Limited!5e0!3m2!1sen!2sin!4v1690461356999!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col-md-6">
+                <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.761454487115!2d75.73500567470113!3d26.91106476016276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db4ec307539f5%3A0x9d37e773648dad58!2sIMG%20Global%20Infotech%20Private%20Limited!5e0!3m2!1sen!2sin!4v1690461356999!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             </div>
         </div>
